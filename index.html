@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="js/ext/angular.min.js"></script>
+  <script src="js/app.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Pacifico" rel="stylesheet">
+  <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<div ng-app="loveApp" ng-controller="MainCtrl">
+  <div class="compliment">
+    <img src="img/heart.jpeg">
+    <p>{{ compliment }}</p>
+    <div class="button raised" ng-click="generateCompliment()">Again!</div>
+  </div>
+
+</div>
+
+</html>
